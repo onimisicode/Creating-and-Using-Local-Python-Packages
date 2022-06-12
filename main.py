@@ -13,7 +13,7 @@ while True:
     print('"P" for "Paper"')
     print('"S" for "Scissors"')
 
-    player = input("Player (Pick R/P/S or Input Q to quit): ")
+    player = input("Player (Pick R/P/S or Input Q to quit): ").lower()
     if player == "q":
         break 
     if player not in options:
